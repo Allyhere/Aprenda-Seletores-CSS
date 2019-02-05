@@ -1,0 +1,13 @@
+$main: rgba(82, 72, 156, 1);
+$sub: rgba(64, 98, 187, 1);
+$color1: rgba(89, 195, 195, 1);
+$color2: rgba(235, 235, 235, 1);
+$color3: rgba(244, 91, 105, 1);
+
+@mixin heading-font{
+    font: {
+        size:1.2em;
+        family: 'Montserrat', sans-serif;
+    }
+}
+
