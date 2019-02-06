@@ -3,7 +3,19 @@ let gulp = require('gulp');
 let sass = require('gulp-sass');
 // let browserSync = require('browser-sync').create();
 
-//gulp flow syntax
+//======================prism====================================================================================================================================
+
+let highlight = require('gulp-prism');
+ 
+gulp.task('default', function () {
+    gulp.src('index.html')
+        .pipe(highlight())
+        .pipe(gulp.dest('dist'));
+});
+
+// ===================================================================================================================================================================
+
+//aprende essa sitaxe aqui ó
 /*gulp.task('task-name', function () {
     return gulp.src('source-files') // Get source files with gulp.src
       .pipe(aGulpPlugin()) // Sends it through a gulp plugin

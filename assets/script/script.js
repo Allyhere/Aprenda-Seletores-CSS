@@ -1,3 +1,4 @@
+let codeBlock = document.querySelectorAll(".code--container");
 let tabItem = document.querySelectorAll(".nav--item");
 let tabText0 = document.querySelector("#text0");
 let tabText1 = document.querySelector("#text1");
